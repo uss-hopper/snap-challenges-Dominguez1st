@@ -2,6 +2,6 @@ let speech = "Fate protects fools, little children and ships named Enterprise. Y
 let speechArr = speech.split(" ");
 
 let newSpeech = speechArr.filter(function(word) {
-	return word[0] !== "f" ;
+	return (word[0] !== "f") && (word[0] !== "F") ;
 });
 console.table(newSpeech);
