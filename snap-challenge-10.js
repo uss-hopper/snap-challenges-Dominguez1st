@@ -5,8 +5,8 @@ const data = [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occ
 	{"userId":5,"id":45,"title":"ut numquam possimus omnis eius suscipit laudantium iure","body":"est natus reiciendis nihil possimus aut provident\nex et dolor\nrepellat pariatur est\nnobis rerum repellendus dolorem autem"},
 	{"userId":5,"id":46,"title":"aut quo modi neque nostrum ducimus","body":"voluptatem quisquam iste\nvoluptatibus natus officiis facilis dolorem\nquis quas ipsam\nvel et voluptatum in aliquid"}];
 
-const newData = data.filter(function(test){
-	return test.userId != '5';
+const newData = data.filter(function(index){
+	return index.userId !== 5;
 });
 
 console.table(newData);
