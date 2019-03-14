@@ -6,8 +6,6 @@ const string = "Ensign Babyface! Your shields were failing, sir. This should be 
 
 let array = string.split(" ");
 
-//console.log(array);
-
 const newArray = array.filter((index)=> index.startsWith("e") || index.startsWith("E"));
 
 console.log(newArray);
